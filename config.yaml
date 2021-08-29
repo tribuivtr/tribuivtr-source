@@ -1,8 +1,8 @@
-baseurl: https://example.com
+baseurl: https://tribuivtr.github.io
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
+title: Blog using Hugo and Github.
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
@@ -15,8 +15,8 @@ googleAnalytics:
 DefaultContentLanguage: en
 
 permalinks:
-    post: /p/:slug/
-    page: /:slug/
+    post: /posts/:slug/
+    page: /pages/:slug/
 
 params:
     mainSections:
@@ -35,7 +35,7 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: Hugo and Github.
         avatar:
             enabled: true
             local: true
@@ -50,7 +50,7 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: true
+        enabled: false
         provider: disqus
 
         disqusjs:
